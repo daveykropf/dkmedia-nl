@@ -40,7 +40,7 @@
   }
 
   &:hover, &:focus {
-    & > .icon { color: cBlue; }
+    & > .icon { color: cGreen; }
     & > .label > .labelInner { transform: translateY(-100%); }
   }
 }
