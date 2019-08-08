@@ -1,0 +1,30 @@
+@import 'normalize.css';
+@import './theme.css';
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  background-color: cBlack;
+  color: cWhite;
+  height: 100%;
+  line-height: lineHeightRegular;
+  width: 100%;
+  font-size: fS16;
+  transition: opacity 300ms ease-in-out;
+
+  @media viewportMd {
+    font-size: fS18;
+  }
+}
+
+*,
+*::before,
+*::after { box-sizing: inherit; }
+
+::selection {
+  background-color: cGreen;
+  color: cWhite;
+}

@@ -1,0 +1,25 @@
+/* Colors */
+@value cBlack: #000;
+@value cWhite: #FFF;
+@value cGreen: #8FB8A4;
+
+/* Sizes */
+@value fS16: 16px;
+@value fS18: 18px;
+@value fS32: 32px;
+@value fS48: 48px;
+
+/* Leading */
+@value lineHeightHeading: 1.1;
+@value lineHeightRegular: 1.5;
+
+/* Weights */
+@value fontWeightLight: 300;
+@value fontWeightRegular: 400;
+@value fontWeightSemiBold: 600;
+@value fontWeightBold: 700;
+
+/* MediaQueries */
+@value viewportMd: screen and (min-width: 48em); /* 768px */
+@value viewportLg: screen and (min-width: 64em); /* 1024px */
+@value viewportXl: screen and (min-width: 80em); /* 1280px */
