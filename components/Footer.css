@@ -4,12 +4,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 24px;
+  padding: gutterH 0;
+
+  @media viewportMd {
+    padding: calc(gutterH * 2) 0;
+  }
 }
 
 .socialLinks {
   & > .socialLink:not(:last-child) {
-    margin-right: calc(gutterH * 2);
+    margin-right: gutterH;
+
+    @media viewportMd {
+      margin-right: calc(gutterH * 2);
+    }
   }
 }
 
@@ -20,7 +28,15 @@
 
   & > .icon {
     transition: color 300ms ease-in-out;
-    margin-right: 10px;
+  }
+
+  & > .label {
+    margin-left: 10px;
+    display: none;
+
+    @media viewportMd {
+      display: inline-block;
+    }
   }
 
   &:hover, &:focus {
@@ -35,9 +51,14 @@
   color: cWhite;
 
   & > svg {
-    width: 24px;
-    height: 24px;
+    width: 36px;
+    height: 36px;
     fill: currentColor;
+
+    @media viewportMd {
+      width: 24px;
+      height: 24px;
+    }
   }
 }
 
