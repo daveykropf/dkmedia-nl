@@ -9,6 +9,7 @@ html {
 body {
   background-color: cBlack;
   color: cWhite;
+  font-family: fontFamilyBase;
   height: 100%;
   line-height: lineHeightRegular;
   width: 100%;

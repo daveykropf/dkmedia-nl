@@ -1,7 +1,8 @@
 /* Colors */
 @value cBlack: #000;
 @value cWhite: #FFF;
-@value cGreen: #8FB8A4;
+@value cPurple: #3700B3;
+@value cBlue: #03DAC6;
 
 /* Sizes */
 @value fS16: 16px;
@@ -16,10 +17,11 @@
 /* Gutters */
 @value gutterH: 24px;
 
+/* Font */
+@value fontFamilyBase: 'Montserrat', sans-serif;
+
 /* Weights */
-@value fontWeightLight: 300;
 @value fontWeightRegular: 400;
-@value fontWeightSemiBold: 600;
 @value fontWeightBold: 700;
 
 /* MediaQueries */

@@ -37,6 +37,8 @@ export default function Index() {
         <meta name="twitter:title" content={siteTitle} />
         <meta name="twitter:description" content={metaDescription} />
         <meta name="twitter:image" content={url + ogImage} />
+
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet" />
       </Head>
       <div className={styles.layout}>
         <div className={styles.header}>Header</div>

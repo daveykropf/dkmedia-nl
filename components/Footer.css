@@ -6,3 +6,58 @@
   align-items: center;
   padding: 24px;
 }
+
+.socialLinks {
+  & > .socialLink:not(:last-child) {
+    margin-right: calc(gutterH * 2);
+  }
+}
+
+.socialLink {
+  color: cWhite;
+  display: inline-flex;
+  text-decoration: none;
+
+  & > .icon {
+    transition: color 300ms ease-in-out;
+    margin-right: 10px;
+  }
+
+  &:hover, &:focus {
+    & > .icon { color: cBlue; }
+    & > .label > .labelInner { transform: translateY(-100%); }
+  }
+}
+
+.icon {
+  display: inline-flex;
+  justify-content: center;
+  color: cWhite;
+
+  & > svg {
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+  }
+}
+
+.label {
+  overflow: hidden;
+
+  & > .labelInner {
+    transition: transform 300ms;
+  }
+}
+
+.labelInner {
+  position: relative;
+	display: inline-block;
+
+  &::before {
+    position: absolute;
+    top: 100%;
+    font-weight: fontWeightBold;
+    content: 'Go!';
+    transform: translate3d(0, 0, 0);
+  }
+}
