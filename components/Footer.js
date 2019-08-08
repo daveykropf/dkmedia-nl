@@ -1,5 +1,13 @@
-export default function Footer() {
+import Container from './Container'
+
+import styles from './Footer.css'
+
+export default function Footer({ layoutClassname }) {
   return (
-    <div>Footer</div>
+    <Container layoutClassname={layoutClassname}>
+      <div className={styles.layout}>
+        Footer
+      </div>
+    </Container>
   )
 }

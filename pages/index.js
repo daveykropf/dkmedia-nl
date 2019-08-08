@@ -38,10 +38,33 @@ export default function Index() {
         <meta name="twitter:description" content={metaDescription} />
         <meta name="twitter:image" content={url + ogImage} />
       </Head>
-      <div className={styles.main}>
-        <div>Header</div>
-        <div>Content</div>
-        <Footer />
+      <div className={styles.layout}>
+        <div className={styles.header}>Header</div>
+        <div className={styles.main}>
+          <p>
+            Ut unde libero voluptas. Architecto soluta vero tempore dignissimos explicabo magni quae ab quod. Fuga
+            aliquam est omnis quis a ut maiores. Praesentium illum qui qui. Reprehenderit nihil maxime dolorem eos
+            odio modi. Repellendus doloribus quo laboriosam at nisi consequuntur. Quia quas corporis rerum ducimus
+            labore at cum. Dolorem voluptatem ut ut non vitae voluptatem consequatur ut doloribus. Facere voluptatem
+            placeat nostrum ea. Vero nostrum ut laboriosam et et sunt magnam. Sunt qui at tempore et animi sit. Magni
+            ullam repudiandae iusto deleniti error libero sed adipisci. Doloribus non ipsam ipsa explicabo sunt nobis
+            qui. Quia debitis voluptates inventore vitae dolorum ea quod aut. Soluta quam saepe sit quibusdam quia et
+            ut magni veritatis. Saepe rerum et non dolores deserunt. Consequatur rerum cum. Qui voluptatum doloribus
+            hic sit laudantium.
+          </p>
+          <p>
+            Ut unde libero voluptas. Architecto soluta vero tempore dignissimos explicabo magni quae ab quod. Fuga
+            aliquam est omnis quis a ut maiores. Praesentium illum qui qui. Reprehenderit nihil maxime dolorem eos
+            odio modi. Repellendus doloribus quo laboriosam at nisi consequuntur. Quia quas corporis rerum ducimus
+            labore at cum. Dolorem voluptatem ut ut non vitae voluptatem consequatur ut doloribus. Facere voluptatem
+            placeat nostrum ea. Vero nostrum ut laboriosam et et sunt magnam. Sunt qui at tempore et animi sit. Magni
+            ullam repudiandae iusto deleniti error libero sed adipisci. Doloribus non ipsam ipsa explicabo sunt nobis
+            qui. Quia debitis voluptates inventore vitae dolorum ea quod aut. Soluta quam saepe sit quibusdam quia et
+            ut magni veritatis. Saepe rerum et non dolores deserunt. Consequatur rerum cum. Qui voluptatum doloribus
+            hic sit laudantium.
+          </p>
+        </div>
+        <Footer layoutClassName={styles.footer} />
       </div>
     </>
   )

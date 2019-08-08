@@ -18,6 +18,11 @@ body {
   @media viewportMd {
     font-size: fS18;
   }
+
+  /* First root element of React */
+  & > * {
+    height: 100%;
+  }
 }
 
 *,

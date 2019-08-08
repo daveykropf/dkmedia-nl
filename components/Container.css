@@ -1,0 +1,11 @@
+@import '../pages/theme.css';
+
+.container {
+  padding-left: gutterH;
+  padding-right: gutterH;
+
+  @media viewportMd {
+    padding-left: calc(gutterH * 2);
+    padding-right: calc(gutterH * 2);
+  }
+}

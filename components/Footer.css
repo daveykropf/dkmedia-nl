@@ -1,0 +1,8 @@
+@import '../pages/theme.css';
+
+.layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}

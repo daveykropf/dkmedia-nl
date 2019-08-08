@@ -13,6 +13,9 @@
 @value lineHeightHeading: 1.1;
 @value lineHeightRegular: 1.5;
 
+/* Gutters */
+@value gutterH: 24px;
+
 /* Weights */
 @value fontWeightLight: 300;
 @value fontWeightRegular: 400;

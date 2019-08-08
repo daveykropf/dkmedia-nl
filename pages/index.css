@@ -1,5 +1,16 @@
 @import './theme.css';
 
-.main {
-  background-color: hotpink;
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  & > .header,
+  & > .footer {
+    flex-shrink: 0;
+  }
+
+  & > .main {
+    flex: 1 0 auto;
+  }
 }
