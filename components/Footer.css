@@ -15,7 +15,7 @@
   & > .socialLink:not(:last-child) {
     margin-right: gutterH;
 
-    @media viewportMd {
+    @media viewportLg {
       margin-right: calc(gutterH * 2);
     }
   }
